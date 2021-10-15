@@ -22,7 +22,7 @@ section {
 }
 
 .home .homeContent .text1 {
-  font-size: 27px;
+  font-size: 32px;
 }
 .home .homeContent .text2 {
   font-size: 75px;
@@ -31,10 +31,33 @@ section {
 }
 .home .homeContent .text3 {
   font-size: 40px;
-  margin: 5px 0;
 }
 .home .homeContent .text3 span {
   color: crimson;
   font-size: 50px;
   font-weight: 500;
+}
+@media (max-width: 1000px) {
+  .home .maxWidth {
+    padding: 0 50px;
+    margin: auto 0 auto 0;
+  }
+}
+@media (max-width: 700px) {
+  .home .maxWidth {
+    padding: 0 20px;
+    margin: auto 0 auto 0;
+  }
+  .home .homeContent .text1 {
+    font-size: 27px;
+  }
+  .home .homeContent .text2 {
+    font-size: 50px;
+  }
+  .home .homeContent .text3 {
+    font-size: 35px;
+  }
+  .home .homeContent .text3 span {
+    font-size: 45px;
+  }
 }

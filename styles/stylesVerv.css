@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&family=Ubuntu:wght@400;500;700&display=swap");
+section {
+  width: 100%;
+}
+.verv {
+  display: flex;
+  background-color: #111;
+  /* background: url("../resources/stuamedmegdemobilde.jpeg") no-repeat center; */
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+  font-family: "Ubuntu", "sans-serif";
+  align-items: center;
+  justify-content: center;
+}
+.verv .maxWidth {
+  margin: auto 0 auto 40px;
+  max-width: 1920px;
+  display: flex;
+}
+.verv .vervContent {
+  color: #fff;
+  background-color: rgba(128, 128, 128, 0.788);
+  padding: 25px 25px;
+}
+
+.verv .vervContent .text1 {
+  font-size: 100px;
+}
+/* .verv .vervContent .text2 {
+  font-size: 75px;
+  font-weight: 600;
+  justify-content: left -3px;
+}
+.verv .vervContent .text3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
+.verv .vervContent .text3 span {
+  color: crimson;
+  font-size: 50px;
+  font-weight: 500;
+} */
