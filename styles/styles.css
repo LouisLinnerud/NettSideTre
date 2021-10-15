@@ -10,11 +10,16 @@ nav {
   width: 100%;
 }
 .navBar {
-  background-color: rgb(0, 143, 136);
+  background-color: rgba(128, 128, 128, 0.329);
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
   font-family: "Ubuntu", "sans-serif";
-  padding: 10px 20px;
+  padding: 20px 20px;
+  transition: all 0.3s ease;
+}
+.navBar.sticky {
+  padding: 3px 20px;
+  background: crimson;
 }
 .navBar .maxWidth {
   max-width: 1920px;
@@ -28,6 +33,12 @@ nav {
   font-weight: 700;
   color: #fff;
 }
+.navBar .logo a span {
+  color: crimson;
+}
+/* .navBar.sticky .logo a {
+  color: white;
+} */
 .navBar .menu li {
   list-style: none;
   display: inline-block;
@@ -37,4 +48,57 @@ nav {
   font-size: 20px;
   font-weight: 500;
   margin-left: 20px;
+  transition: color 0.3s ease-in-out;
+}
+.navBar .menu li a:hover {
+  color: crimson;
+}
+.navBar.navBar.sticky .menu li a {
+  color: #fff;
+}
+section {
+  width: 100%;
+}
+.home {
+  display: flex;
+  background-color: gray;
+  background: url("../resources/stuamedmegdemobilde.jpeg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  /*   align-items: center; */
+  /*   justify-content: left 100px; */
+  min-height: 500px;
+  font-family: "Ubuntu", "sans-serif";
+}
+.home .maxWidth {
+  margin: auto 0 auto 40px;
+  max-width: 1920px;
+}
+.home .homeContent {
+  color: #fff;
+  background-color: rgba(128, 128, 128, 0.788);
+  padding: 25px 25px;
+}
+
+.home .homeContent .text1 {
+  font-size: 27px;
+}
+.home .homeContent .text2 {
+  font-size: 75px;
+  font-weight: 600;
+  justify-content: left -3px;
+}
+.home .homeContent .text3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
+.home .homeContent .text3 span {
+  color: crimson;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+footer {
+  background-color: rgb(35, 30, 33);
+  height: 220px;
 }
