@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 /* ### nav ### */
-nav {
+/* nav {
   position: fixed;
   width: 100%;
 }
@@ -34,11 +34,11 @@ nav {
 }
 .navBar .logo a span {
   color: crimson;
-}
+} */
 /* .navBar.sticky .logo a {
   color: white;
 } */
-.navBar .menu li {
+/* .navBar .menu li {
   list-style: none;
   display: inline-block;
 }
@@ -60,9 +60,9 @@ nav {
   font-size: 23px;
   cursor: pointer;
   display: none;
-}
+} */
 /* ### home content ### */
-section {
+/* section {
   width: 100%;
 }
 .home {
@@ -71,8 +71,6 @@ section {
   background: url("../resources/stuamedmegdemobilde.jpeg") no-repeat center;
   background-size: cover;
   height: 100vh;
-  /*   align-items: center; */
-  /*   justify-content: left 100px; */
   min-height: 500px;
   font-family: "Ubuntu", "sans-serif";
 }
@@ -102,7 +100,7 @@ section {
   color: crimson;
   font-size: 50px;
   font-weight: 500;
-}
+} */
 /* ### footer ### */
 footer {
   background-color: rgb(35, 30, 33);

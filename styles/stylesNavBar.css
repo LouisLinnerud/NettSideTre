@@ -1,0 +1,55 @@
+nav {
+  position: fixed;
+  width: 100%;
+}
+.navBar {
+  background-color: rgba(128, 128, 128, 0.329);
+  font-family: "Ubuntu", "sans-serif";
+  padding: 20px 20px;
+  transition: all 0.3s ease;
+}
+.navBar.sticky {
+  padding: 3px 20px;
+  background: crimson;
+}
+.navBar .maxWidth {
+  max-width: 1920px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBar .logo a {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+.navBar .logo a span {
+  color: crimson;
+}
+/* .navBar.sticky .logo a {
+  color: white;
+} */
+.navBar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navBar .menu li a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+  transition: color 0.3s ease-in-out;
+}
+.navBar .menu li a:hover {
+  color: crimson;
+}
+.navBar.navBar.sticky .menu li a {
+  color: #fff;
+}
+.navBar .menuBtn {
+  color: #fff;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
