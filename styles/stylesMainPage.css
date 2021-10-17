@@ -37,6 +37,56 @@ section {
   font-size: 50px;
   font-weight: 500;
 }
+/* about content */
+
+.about {
+  font-family: "Poppins", sans-serif;
+  padding: 100px 0px;
+}
+.about .maxWidth {
+  margin: auto 0 auto 40px;
+  max-width: 1920px;
+}
+.about .title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+.about .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  transform: translateX(-50%);
+  background: #111;
+}
+.about .title::after {
+  content: "Who i am";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 5px;
+  transform: translateX(-50%);
+  background: #fff;
+}
+.about .aboutContent {
+  font-family: "Ubuntu", sans-serif;
+}
+.about .aboutContent .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
 @media (max-width: 1000px) {
   .home .maxWidth {
     padding: 0 50px;
