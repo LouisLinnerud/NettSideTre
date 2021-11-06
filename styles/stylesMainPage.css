@@ -5,7 +5,7 @@ section {
 .home {
   display: flex;
   background-color: gray;
-  background: url("../resources/stuamedmegdemobilde.jpeg") no-repeat center;
+  background: url("../resources/Hovedbygget.jpg") no-repeat center;
   background-size: cover;
   height: 100vh;
   min-height: 500px;
@@ -67,7 +67,8 @@ section {
   background: #111;
 }
 .about .title::after {
-  content: "Who i am";
+  /* under content kan du legge in pen rød tekst over svart stripe på om*/
+  content: "";
   position: absolute;
   bottom: -12px;
   left: 50%;
@@ -204,13 +205,21 @@ section {
     padding: 0 50px;
     margin: auto 0 auto 0;
   }
-}
-@media (max-width: 940px) {
+  .aboutMore .aboutMoreContent {
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+  }
+  .aboutMore .aboutMoreContent .card {
+    margin-bottom: 20px;
+  }
   .about .aboutContent .column {
     width: 100%;
     padding-right: 45px;
   }
 }
+
 @media (max-width: 700px) {
   .home .maxWidth {
     padding: 0 20px;
