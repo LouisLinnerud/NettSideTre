@@ -111,9 +111,9 @@ section {
 .about .aboutContent .right p {
   font-size: 18px;
   text-align: justify;
-  max-width: 500px;
+  max-width: 700px;
 }
-.about .aboutContent .right a {
+/* .about .aboutContent .right a {
   display: inline-block;
   background-color: crimson;
   color: #fff;
@@ -124,7 +124,7 @@ section {
   border-radius: 6px;
   border: 2px solid crimson;
   transition: all 0.3s ease;
-}
+} */
 .about .aboutContent .right a:hover {
   color: crimson;
   background: none;
