@@ -95,6 +95,7 @@ section {
   width: 400px;
   object-fit: cover;
   border-radius: 6px;
+  transform: translateX(20px);
 }
 .about .aboutContent .right {
   width: 55%;
