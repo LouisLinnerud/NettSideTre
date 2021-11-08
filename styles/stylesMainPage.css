@@ -17,8 +17,9 @@ section {
 }
 .home .homeContent {
   color: #fff;
-  background-color: rgba(128, 128, 128, 0.788);
+  background-color: rgba(128, 128, 128, 0.466);
   padding: 25px 25px;
+  min-width: 775px;
 }
 
 .home .homeContent .text1 {
@@ -34,6 +35,7 @@ section {
 }
 .home .homeContent .text3 span {
   color: crimson;
+
   font-size: 50px;
   font-weight: 500;
 }

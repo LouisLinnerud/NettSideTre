@@ -11,4 +11,15 @@ $(document).ready(function(){
         $(".navBar .menu").toggleClass("active");
         $(".navBar .menuBtn i").toggleClass("active");
     });
+
+    var typed = new Typed(".types",{
+        strings: ["Ingeniørvitenskap","IT","Programmering"],
+        typeSpeed: 30,
+        backSpeed: 30,
+        backDelay: 2000,
+        loop: true
+    })
+
+
+
 });
