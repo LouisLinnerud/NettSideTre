@@ -3,7 +3,7 @@ nav {
   width: 100%;
 }
 .navBar {
-  background-color: crimson;
+  background-color: #177e89;
   font-family: "Ubuntu", "sans-serif";
   padding: 20px 20px;
   transition: all 0.3s ease;
@@ -40,10 +40,10 @@ nav {
   font-size: 20px;
   font-weight: 500;
   margin-left: 20px;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 .navBar .menu li a:hover {
-  color: crimson;
+  color: #084c61;
 }
 .navBar.navBar.sticky .menu li a {
   color: #fff;

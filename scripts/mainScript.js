@@ -13,7 +13,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".types",{
-        strings: ["Ingeniørvitenskap","IT","Programmering"],
+        strings: ["Ingeniørvitenskap","Programmering","IT"],
         typeSpeed: 30,
         backSpeed: 30,
         backDelay: 2000,

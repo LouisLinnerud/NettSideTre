@@ -17,11 +17,10 @@ section {
 }
 .home .homeContent {
   color: #fff;
-  background-color: rgba(128, 128, 128, 0.466);
+  background-color: rgba(128, 128, 128, 0.616);
   padding: 25px 25px;
-  min-width: 775px;
+  min-width: 790px;
 }
-
 .home .homeContent .text1 {
   font-size: 32px;
 }
@@ -34,10 +33,11 @@ section {
   font-size: 40px;
 }
 .home .homeContent .text3 span {
-  color: crimson;
-
+  /* color: crimson; */
+  color: #084c61;
+  /* background-color: #177e891f; */
   font-size: 50px;
-  font-weight: 500;
+  font-weight: 600;
 }
 /* about content */
 
@@ -69,13 +69,13 @@ section {
   background: #111;
 }
 .about .title::after {
-  /* under content kan du legge in pen rød tekst over svart stripe på om*/
-  content: "";
+  /* under content kan du legge in blå tekst over svart stripe på om*/
+  content: "meg";
   position: absolute;
   bottom: -12px;
   left: 50%;
   font-size: 20px;
-  color: crimson;
+  color: #084c61;
   padding: 5px;
   transform: translateX(-50%);
   background: #fff;
@@ -108,11 +108,11 @@ section {
   margin-bottom: 10px;
 }
 .about .aboutContent .right .text span {
-  color: crimson;
+  color: #084c61;
 }
 .about .aboutContent .right p {
-  font-size: 18px;
-  text-align: justify;
+  font-size: 20px;
+  text-align: left;
   max-width: 700px;
 }
 /* .about .aboutContent .right a {
@@ -127,10 +127,10 @@ section {
   border: 2px solid crimson;
   transition: all 0.3s ease;
 } */
-.about .aboutContent .right a:hover {
+/* .about .aboutContent .right a:hover {
   color: crimson;
   background: none;
-}
+} */
 
 /* more about content */
 .aboutMore {
@@ -164,7 +164,7 @@ section {
   width: 300px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid crimson;
+  border: 3px solid #084c61;
 }
 .aboutMore .aboutMoreContent .card p {
   max-width: 300px;
@@ -179,18 +179,18 @@ section {
   max-width: 300px;
   padding-top: 15px;
 
-  background-color: crimson;
+  background-color: #084c61;
   color: #fff;
   font-size: 20px;
   font-weight: 600;
   padding: 5px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid #084c61;
   transition: all 0.3s ease;
 }
 .aboutMore .aboutMoreContent .card a:hover {
-  color: crimson;
+  color: #084c61;
   background: none;
 }
 
@@ -201,6 +201,7 @@ section {
   }
   .about .aboutContent {
     padding: 0 0px;
+    min-width: none;
   }
 }
 @media (max-width: 1000px) {
